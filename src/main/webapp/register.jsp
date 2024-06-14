@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Register</title>
+<link rel="stylesheet" type="text/css" href="style1.css"/>
 </head>
 <body>
       <div class="container">
@@ -19,7 +20,7 @@
             <button type="submit">Register</button>
         </form>
     
-        <p><a href="index.jsp">Back to Home</a></p>
+        <p><a href="index.html">Back to Home</a></p>
     
         <%-- Display error message if registration fails --%>
         <% String error = request.getParameter("error");

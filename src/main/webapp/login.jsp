@@ -18,7 +18,7 @@
             <button type="submit">Login</button>
         </form>
 
-        <p><a href="index.jsp">Back to Home</a></p>
+        <p><a href="index.html"> Back to Home</a></p>
 
         <%-- Display error message if login fails --%>
         <% String error = request.getParameter("error");
