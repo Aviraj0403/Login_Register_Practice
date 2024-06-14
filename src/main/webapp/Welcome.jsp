@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome</title>
+<link rel="stylesheet" type="text/css" href="style1.css"/>
 </head>
 <%@ page import="jakarta.servlet.http.HttpSession" %>
 

@@ -22,6 +22,7 @@ public class UserDaoImp implements UserDao {
 	            preparedStatement.setString(3, user.getPassword());
 
 	            int rowsAffected = preparedStatement.executeUpdate();
+	            System.out.println("User add to database");
 
 	            return rowsAffected > 0;
 	        } catch (SQLException e) {
