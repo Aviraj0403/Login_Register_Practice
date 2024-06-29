@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DataBase {
 	 private static final String URL = "jdbc:oracle:thin:@localhost:1521:XE";
 	 private static final String USERNAME = "System";
-	 private static final String PASSWORD = "834";
+	 private static final String PASSWORD = "aviraj";
     static {
         try {
             // Load the MySQL JDBC driver
